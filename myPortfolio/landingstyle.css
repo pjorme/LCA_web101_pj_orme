@@ -8,15 +8,11 @@ body {
   }
   
   .logo {
-    width: 30%;
-    height: 100%;
-    margin: 3% 10%;
+ 
   }
   
   header {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    width: 100%;
+  
   }
   
   main {
@@ -45,11 +41,10 @@ body {
     border: 3px solid #0795C3;
     background: none;
     padding: 20px; 
+    width: 100%
   }
   
   nav {
-    display: flex;
-    justify-content: flex-end;
     width: 100%;
   }
   
