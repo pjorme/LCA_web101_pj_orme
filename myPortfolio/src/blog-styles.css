@@ -1,7 +1,18 @@
 title {
-    color: blueviolet
+    color: blueviolet;
+    margin: 5% auto
 }
 h1 {
     color:blue;
     grid-column: 2/3;
+}
+body {
+    background: pink
+}
+main {
+    width: 50%;
+    margin: 5% auto;
+}
+article {
+    border: solid 2px
 }
