@@ -23,3 +23,14 @@ article {
     font-size: 175%;
     background: pink;
 }
+@media(min-width:450px){
+    p{
+        font-size: 1.25rem;
+    }
+}
+@media(min-width:700px){
+p{
+    font-size: 1.5rem:
+    line-height: 1.5;
+}
+}
