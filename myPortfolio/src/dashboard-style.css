@@ -9,7 +9,7 @@ body {
 }
 header {
     grid-area: header;
-    background: lightblue;
+    background: green;
 }
 main {
         grid-area: main;
