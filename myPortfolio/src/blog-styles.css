@@ -3,16 +3,34 @@ title {
     margin: 5% auto
 }
 h1 {
-    color:blue;
+    color:yellow;
     grid-column: 2/3;
 }
+h2{
+    margin:2% auto;
+}
 body {
-    background: pink
+    background: green:
 }
 main {
-    width: 50%;
+    width: 80%;
     margin: 5% auto;
+    background: blue
 }
 article {
-    border: solid 2px
+    border: solid 2px;
+    margin: 2%;
+    font-size: 175%;
+    background: pink;
+}
+@media(min-width:450px){
+    p{
+        font-size: 1.25rem;
+    }
+}
+@media(min-width:700px){
+p{
+    font-size: 1.5rem:
+    line-height: 1.5;
+}
 }

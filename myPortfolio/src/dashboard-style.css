@@ -69,11 +69,11 @@ main {
   }
   .clock {
       grid-area: aside;
-}
+  }
           @font-face {
             font-family: 'Digital-7';
             src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.eot?#iefix') format('embedded-opentype'),  url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.ttf')  format('truetype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.svg#Digital-7') format('svg');font-weight: normal;font-style: normal;}
-          ::selection{background:#333;}::-moz-selection{background:#111;}
+          ::selection{background:green;}::-moz-selection{background:#111;}
           *,html{margin:0;}
           body{background:#333}
           figure{width:210px;height:210px;position:absolute;top:50%;left:50%;margin-top:-105px;margin-left:-105px;transform-style: preserve-3d;-webkit-transform-style: preserve-3d;-webkit-transform: rotateX(-35deg) rotateY(45deg);transform: rotateX(-35deg) rotateY(45deg);transition:2s;}
