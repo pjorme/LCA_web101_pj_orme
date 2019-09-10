@@ -2,10 +2,9 @@ body {
     display: grid;
     grid-template-columns: 90% 90%;
     grid-template-rows: 25% 90% 25% 25%;
+    font-size: 25px;
 }
-::backdrop{
-    link
-}
+
 .our-grid-item{
     grid-column: 1/2;
     grid-row: 1/2;
@@ -71,7 +70,9 @@ main {
     box-shadow: 4px 0px 12px black inset;
   }
   .clock {
-      grid-area: aside;}
+      grid-area: aside;
+      padding-top: 5em;
+    }
           @font-face {
         
             font-family: 'Digital-7';
@@ -120,8 +121,10 @@ footer {
             display: grid;
             grid-template-columns: 2fr 1fr;
             grid-template-areas: 
-            "header   main"
-            "aside   aside"
+            "header"
+            "main"
+            "aside"
+            "aside"
         }
 
     }
