@@ -3,9 +3,7 @@ body {
     grid-template-columns: 90% 90%;
     grid-template-rows: 25% 90% 25% 25%;
 }
-::backdrop{
-    link
-}
+
 .our-grid-item{
     grid-column: 1/2;
     grid-row: 1/2;
