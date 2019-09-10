@@ -2,7 +2,7 @@ body {
     display: grid;
     grid-template-columns: 90% 90%;
     grid-template-rows: 25% 90% 25% 25%;
-    font-size: 50px;
+    font-size: 25px;
 }
 
 .our-grid-item{
@@ -71,7 +71,7 @@ main {
   }
   .clock {
       grid-area: aside;
-      padding-top: 20em;
+      padding-top: 5em;
     }
           @font-face {
         
@@ -121,8 +121,10 @@ footer {
             display: grid;
             grid-template-columns: 2fr 1fr;
             grid-template-areas: 
-            "header   main"
-            "aside   aside"
+            "header"
+            "main"
+            "aside"
+            "aside"
         }
 
     }
