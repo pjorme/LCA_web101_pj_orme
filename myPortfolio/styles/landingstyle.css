@@ -86,9 +86,64 @@ body {
     letter-spacing: 5px;
     font-style: italic;
   }
-  @media(min-width:750px ){
-
+  @media(max-width:768px ) and (min-width:577px){
+    button {
+      grid-column: 2/3;
+      margin: 3% auto;
+      width: 70%;
+      height: 15%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      border-radius: 25px;
+      background: blue;
+      padding: 20px; 
+      padding-bottom: 15%;
+      text-align: center;
+      color: lime;
+      letter-spacing: 5px;
+      font-style: italic;
+    }
+    h1 {
+      color:blue;
+      grid-column: 2/3;
+      margin: 10% auto;
+      border-bottom: 2px solid #1940A9;;
+    }
   }
-  @media(max-width:350){
-
+  @media(min-width:100px) and (max-width:576px){
+    button {
+      grid-column: 2/3;
+      margin: 3% auto;
+      width: 100%;
+      height: 35%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      border-radius: 25px;
+      background: pink;
+      padding: 20px; 
+      text-align: center;
+      color: purple;
+      letter-spacing: 4px;
+      font-style: italic;
+    }
+    .has-border {
+      border-radius: 25px;
+      border: 3px solid #0795C3;
+      background: wheat;
+      padding: 10px;
+      width: 100%;
+  }
+  nav > a {
+    margin: auto;
+    height: 10%;
+    width: 15%;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid;
+  }
   }
