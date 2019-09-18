@@ -22,7 +22,7 @@ body {
 nav {
     grid-area: header;
     color: #ff29ff;
-    font-size: 66px:
+
 }
 main {
 grid-area: main;
@@ -33,6 +33,7 @@ min-height: (100vh - 54px );
   }
 .calc {
     grid-area: aside;
+    flex-direction: row;
   }
 
   #calc-contain{
@@ -81,7 +82,7 @@ min-height: (100vh - 54px );
   }
   .clock {
       grid-area: aside2;
-      padding-top: 2em;
+      padding-top: 15em;
     }
           @font-face {
         
@@ -89,7 +90,7 @@ min-height: (100vh - 54px );
             src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.eot?#iefix') format('embedded-opentype'),  url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.ttf')  format('truetype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.svg#Digital-7') format('svg');font-weight: normal;font-style: normal;}
           ::selection{background:green;}::-moz-selection{background:#111;}
           *,html{margin:0;}
-          figure{width:210px;height:210px;position:absolute;top:50%;left:50%;margin-top:-105px;margin-left:-105px;transform-style: preserve-3d;-webkit-transform-style: preserve-3d;-webkit-transform: rotateX(-35deg) rotateY(45deg);transform: rotateX(-35deg) rotateY(45deg);transition:2s;}
+          figure{width:210px;height:210px;position:relative;top:50%;left:50%;margin-top:-105px;margin-left:-105px;transform-style: preserve-3d;-webkit-transform-style: preserve-3d;-webkit-transform: rotateX(-35deg) rotateY(45deg);transform: rotateX(-35deg) rotateY(45deg);transition:2s;}
           figure:hover{-webkit-transform:rotateX(-50deg) rotateY(45deg);transform:rotateX(-50deg) rotateY(45deg);}
           .face{width:100%;height:100%;position:absolute;-webkit-transform-origin: center;transform-origin: center;background:#000;text-align:center;}
           p{font-size:180px;font-family: 'Digital-7';margin-top:20px;color:#2982FF;text-shadow:0px 0px 5px #000;-webkit-animation:color 10s infinite;animation:color 10s infinite;line-height:180px;}
