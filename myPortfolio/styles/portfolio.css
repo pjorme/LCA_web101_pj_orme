@@ -1,0 +1,12 @@
+a{
+    grid-column: 2/3;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+font-size: 35px;
+background-image: url(../images/portfoliobackground.jpg);
+}
+iframe{
+grid-column: 2/3;
+}
