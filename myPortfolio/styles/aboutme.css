@@ -1,0 +1,14 @@
+article{
+    color:white;
+    font-size: 35px;
+    width: 80%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    width: 20%;
+}
+body{
+    background-image: url(../images/puppy.jpg);
+    background-repeat: repeat;
+}
