@@ -1,0 +1,22 @@
+body{
+background-image: url(../images/bubbles.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+grid-template-columns: 1fr 1fr 1fr;
+display: grid;
+}
+h1{
+color:pink;
+grid-column: 2/3;
+font-size: 30px;
+}
+h2{
+color:pink;
+grid-column: 2/3;
+font-size:30px;
+}
+h3{
+color: pink;
+grid-column: 2/3;
+font-size: 30px;
+}
