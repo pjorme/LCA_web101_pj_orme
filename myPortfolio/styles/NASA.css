@@ -1,0 +1,24 @@
+body{
+    margin: 0 auto;
+    width: 850px;
+}
+main{
+    margin: 0 auto;
+    background-image: url(../images/blackhole.jpg);
+    color:white;
+    height:450px;
+    font-family: 'Oswald', sans-serif;
+}
+section{
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:25px ;
+}
+article{
+    width:274px;
+    background-color:transparent;
+}
