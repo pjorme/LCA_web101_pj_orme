@@ -11,6 +11,23 @@ body {
  
   
   }
+  .choochoo{
+    opacity: 0;
+    animation-name: choochooof ;
+    animation-duration: 10s;
+
+  }
+  @keyframes choochooof{
+    0%   {background-color: red;}  
+    0% {opacity: 0;}
+    25%  {background-color: yellow;}
+    25% {opacity: .5}
+    50%  {background-color: blue;}
+    50% { opacity: .25} 
+    100% {background-color: green;} 
+    100% {opacity: .01}
+  }
+  
   
   header {
   
@@ -263,7 +280,7 @@ main@-webkit-keyframes heartBeat {
   }
 }
 
-main {
+.has-border {
   -webkit-animation-name: heartBeat;
   animation-name: heartBeat;
   -webkit-animation-duration: 1.3s;
