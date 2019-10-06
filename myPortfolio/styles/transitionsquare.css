@@ -1,0 +1,64 @@
+div{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    font-size: 20px;
+}
+.odd{
+transition: transform 10s, width 1.5s, height 1.5s ;
+
+}
+section:hover .odd{
+width: 100px;
+height: 100px;
+transform: translate(1000px) rotate(90deg);
+
+}
+.even{
+transition: transform 10s, width 1.5s, height 1.5s;
+}
+section:hover .even{
+height: 25px;
+width: 25px;
+transform: translate(-1000px) rotate(-90deg);
+
+}
+.a1{
+background-color: red;
+}
+.a2{
+background-color: white;
+}
+.a3{
+background-color:blue;
+}
+.a4{
+background-color:green;
+}
+.a5{
+background-color:purple;
+}
+.a6{
+background-color:pink;
+}
+.a7{
+background-color:beige;
+}
+.a8{
+background-color:rgb(238, 14, 14);
+}
+.a9{
+background-color:maroon;
+}
+.a10{
+background-color:teal;
+}
+.a11{
+background-color:salmon;
+}
+.a12{
+background-color:grey;
+}
+body{
+    background-color: rgba(165, 42, 42, 0.644);
+}
