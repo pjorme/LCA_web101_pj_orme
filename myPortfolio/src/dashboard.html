@@ -11,13 +11,19 @@
 
 <body class="container">
     <nav>
-    <header>to do list.
-    </header>
-                <ul>
-            <li><a href="#">school</a></li>
-            <li><a href="#">work</a></li>
-            <li><a href="#">repeat</a></li>
-        </ul>
+        <div id="list_section">
+            <h1 id="header">To-do list</h1>
+            <ul>
+              <li class="item">Buy movie tickets</li>
+            </ul>
+            <div id="newItemButton"><button href="#">new item</button></div>
+            <form id="newItemForm">
+              <input type="text" id="itemField" placeholder="Item" />
+              <input type="submit" id="add" value="add" />
+            </form>
+          </div>
+          <script src="https://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
+          <script src="js/your_js_file.js"></script>
         </nav>
     <main>
         
