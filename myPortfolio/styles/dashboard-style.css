@@ -8,11 +8,9 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
 grid-template-areas: 
-"main header"
-"main2  header"
-".    aside"
-".    aside2";
-
+"main    aside"
+".      header"
+"aside2      main2";
 }
 /* Set the size of the div element that contains the map */
 #map {
@@ -80,14 +78,15 @@ input[type = text] {
 position: relative;
 display: block;
 width: 90%;
-margin: 5px auto;
+margin: 5px ;
 font-size: 20px;
 padding: 10px;
 box-shadow: 4px 0px 12px black inset;
 }
 .clock {
 grid-area: aside2;
-padding-top: 15em;
+padding-top: 1em;
+
 }
 @font-face {
 
