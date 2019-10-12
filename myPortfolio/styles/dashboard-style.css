@@ -9,7 +9,7 @@ background-repeat: no-repeat;
 background-size: cover;
 grid-template-areas: 
 "main    aside"
-".      header"
+"game     header"
 "aside2      main2";
 }
 /* Set the size of the div element that contains the map */
@@ -121,6 +121,42 @@ grid-area: nav;
 .figure {
 grid-area; aside;
 }
+#board {
+    display: flex;
+  }
+  .column {
+    width: 55px;
+    height: 300px;
+    background-color: #f70c0c;
+    border-right: 3px solid #880;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .disc {
+    height: 55px;
+    width: 55px;
+    border-radius: 25px;
+  }
+  
+  .red {
+    background-color: olive;
+  }
+  
+  .black {
+    background-color:grey;
+  }
+  
+  .row {
+    clear: both;
+  }
+  
+  #announce-winner {
+    clear: both;
+    font-size: 50px;
+  }
+  
 
 
 @media (max-width: 768px) {
@@ -130,7 +166,7 @@ grid-template-columns: 4fr 1fr;
 grid-template-areas: 
 "header  aside"
 "main    aside2"
-"main    aside2";
+"main2    game";
 }
 @media (max-width: 350px){
 .container {
@@ -142,6 +178,7 @@ grid-template-areas:
 "main2"
 "aside"
 "aside2"
+"game"
 }
 
 }
